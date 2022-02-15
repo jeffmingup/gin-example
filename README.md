@@ -72,14 +72,14 @@ Swagger 文档
 ## 特性
 
 - RESTful API
-- Gorm
-- Swagger
-- logging
-- Jwt-go
-- Gin
-- Graceful restart or stop (fvbock/endless)
-- App configurable
-- Cron
-- Redis
+- [Gorm](https://gorm.io/zh_CN/docs/index.html) 数据库ORM管理框架, 可自行扩展多种数据库类型(主分支已支持gorm 2.0)
+- [Swagger](https://github.com/swaggo/swag/blob/master/README_zh-CN.md) Swagger V2接口文档
+- logging 统一日志接口
+- [Jwt-go](https://github.com/dgrijalva/jwt-go) 用户认证
+- [Gin](https://gin-gonic.com/zh-cn/docs/) 一款高效的golang web框架
+- Graceful restart or stop ([fvbock/endless](https://github.com/fvbock/endless))
+- [go-ini](github.com/go-ini/ini) 配置管理工具, 支持多种配置文件类型
+- [Cron](https://github.com/robfig/cron) 定时任务处理
+- [Redis](https://github.com/gomodule/redigo) redis客户端
 
 
